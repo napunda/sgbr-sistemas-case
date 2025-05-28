@@ -1,53 +1,78 @@
-# Quasar Tailwind (quasar-tailwind)
+# 🎨 Quasar Tailwind + Giphy API
 
-A Quasar template combined with TailwindCSS, provided by [Code Coaching](https://code-coaching.dev).
+Este projeto é uma aplicação web desenvolvida em **Vue 3** com **Quasar Framework** e estilizada utilizando **TailwindCSS**. O objetivo é consumir a **API do Giphy**, permitindo aos usuários buscar, visualizar e favoritar GIFs de forma simples e divertida.
 
-## Start from this template
+Além disso, o projeto serve como um laboratório para estudos de frontend moderno, consumo de APIs e gerenciamento de estado com **Pinia**.
 
-```sh
-git clone git@github.com:code-coaching/quasar-tailwind.git QuackUI
-```
+---
 
-`QuackUI` is the name of the directory you want to create. You can change it to whatever you want.
+## 🚀 Tecnologias Utilizadas
 
-## Install the dependencies
+- Vue 3
+- Quasar Framework
+- Tailwind CSS
+- Pinia (Gerenciamento de estado)
+- Axios (Requisições HTTP)
+- Vue Router
+
+---
+
+## 🔧 Como rodar o projeto
+
+### 1. Clone o repositório
 
 ```bash
-yarn
-# or
+git clone https://github.com/napunda/sgbr-sistemas-case.git
+```
+
+### 2. Acesse a pasta do projeto
+
+```bash
+cd sgbr-sistemas-case
+```
+
+### 3. Instale as dependências
+
+```bash
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+ou
 
 ```bash
-quasar dev
+yarn install
 ```
 
-### Lint the files
+### 4. Rode o projeto em desenvolvimento
 
 ```bash
-yarn lint
-# or
-npm run lint
+npm run dev
 ```
 
-### Format the files
-
-This will also sort the classes to have a consistent order.
+ou
 
 ```bash
-yarn format
-# or
-npm run format
+yarn dev
 ```
 
-### Build the app for production
+### 5. Acesse no navegador
+
+```
+http://localhost:9000
+```
+
+---
+
+## 📦 Build para produção
 
 ```bash
-quasar build
+npm run build
 ```
 
-### Customize the configuration
+Os arquivos finais estarão na pasta `/dist/spa`.
 
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+---
+
+## 📄 Licença
+
+Este projeto é de uso pessoal e educacional.
