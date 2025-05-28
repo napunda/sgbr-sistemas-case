@@ -1,3 +1,4 @@
+[Preview disponível](https://sgbr-sistemas-case.onrender.com)
 
 # 🎬 Giphy Explorer - Quasar + Tailwind + Vue 3
 
