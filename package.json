@@ -1,9 +1,17 @@
 {
-  "name": "quasar-tailwind",
+  "name": "sgbr-sistemas-case",
   "version": "0.0.1",
-  "description": "A Quasar template combined with TailwindCSS",
-  "productName": "Quasar Tailwind",
-  "author": "Bart Duisters <bartduisters@bartduisters.com>",
+  "description": "Anderson Souza's case study for SGBr Sistemas",
+  "keywords": [
+    "vue",
+    "quasar",
+    "pinia",
+    "axios",
+    "tailwindcss",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Anderson Souza",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
